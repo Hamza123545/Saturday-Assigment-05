@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+.navlinks{
+  @apply cursor-pointer px-2 py-1 font-semibold rounded-sm hover:bg-white hover:text-[#222222];
+}
+.redCard{
+  @apply flex-col items-center justify-center border-2 rounded-md border-red-500 w-60 h-80 cursor-pointer hover:bg-red-500 hover:border-2 hover:border-white shadow-2xl;
+  }
+
+  .greenCard{
+    @apply flex-col items-center justify-center border-2 rounded-md border-green-500 w-64 h-96 cursor-pointer hover:bg-green-500 hover:border-2 hover:border-white shadow-2xl;
+  }
+  
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
